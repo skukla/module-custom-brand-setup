@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Skukla_CustomBrandSetup" setup_version="0.0.1">
+        <sequence>
+            <module name="Magento_SampleData"/>
+            <module name="Magento_CmsSampleData"/>
+            <module name="Magento_WebsiteRestriction"/>
+            <module name="Magento_Reward"/>
+            <module name="Magento_BundleSampleData"/>
+            <module name="Magento_CatalogRuleSampleData"/>
+            <module name="Magento_CatalogSampleData"/>
+            <module name="Magento_ConfigurableSampleData"/>
+            <module name="Magento_CustomerBalanceSampleData"/>
+            <module name="Magento_CustomerSampleData"/>
+            <module name="Magento_DownloadableSampleData"/>
+            <module name="Magento_GiftCardSampleData"/>
+            <module name="Magento_GiftRegistrySampleData"/>
+            <module name="Magento_GroupedProductSampleData"/>
+            <module name="Magento_MsrpSampleData"/>
+            <module name="Magento_MultipleWishlistSampleData"/>
+            <module name="Magento_OfflineShippingSampleData"/>
+            <module name="Magento_ProductLinksSampleData"/>
+            <module name="Magento_ReviewSampleData"/>
+            <module name="Magento_SalesRuleSampleData"/>
+            <module name="Magento_SalesSampleData"/>
+            <module name="Magento_SwatchesSampleData"/>
+            <module name="Magento_TargetRuleSampleData"/>
+            <module name="Magento_TaxSampleData"/>
+            <module name="Magento_ThemeSampleData"/>
+            <module name="Magento_WidgetSampleData"/>
+            <module name="Magento_WishlistSampleData"/>
+        </sequence>
+    </module>
+</config>

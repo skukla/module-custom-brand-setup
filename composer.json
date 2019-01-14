@@ -1,0 +1,14 @@
+{
+    "name": "skukla/module-custom-brand-setup",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "skukla/theme-frontend-custom": "*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Skukla\\CustomBrandSetup\\": ""
+        }
+    }
+}
