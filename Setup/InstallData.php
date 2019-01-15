@@ -219,7 +219,7 @@ class InstallData implements Setup\InstallDataInterface
             // GroupId is a Store ID (in adminhtml terms)
             $newStore->setGroupId($group->getId());
             $newStore->setSortOrder($this->config['newViewPriority']);
-            $newStore->setIsActive(true);
+            $newStore->setIsActive(false); // Set the store view to inactive by default
             $newStore->save();
             // Assign the view as the default on the Custom store
             $group->setDefaultStoreId($newStore->getId());
